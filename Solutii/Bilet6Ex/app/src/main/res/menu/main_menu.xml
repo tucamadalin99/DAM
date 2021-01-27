@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_bon"
+        android:title="@string/emitere_bon" />
+    <item
+        android:id="@+id/menu_lista_bon"
+        android:title="@string/lista_bonuri" />
+    <item
+        android:id="@+id/menu_preluare"
+        android:title="@string/preluare_json_xml" />
+    <item
+        android:id="@+id/menu_raport"
+        android:title="@string/raport" />
+    <item
+        android:id="@+id/menu_despre"
+        android:title="@string/despre" />
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Subiect4</string>
+    <string name="add_sesizare">Adauga Sesizare</string>
+    <string name="lista_sesizari">Lista Sesizari</string>
+    <string name="raport">Raport</string>
+    <string name="despre">Despre</string>
+    <string name="autor">\"Tuca Madalin \"</string>
+    <string name="titlu">Titlu:</string>
+    <string name="descriere">Descriere:</string>
+    <string name="data">Data</string>
+    <string name="adauga">Adauga</string>
+    <string name="titlu1">Titlu</string>
+    <string name="tip">Tip</string>
+    <string name="descriere1">Descriere</string>
+    <string name="data1">Data</string>
+
+    <string-array name="tipuri">
+        <item>Drumuri</item>
+        <item>Personal</item>
+        <item>Iluminat</item>
+        <item>Gaze</item>
+        <item>Apa</item>
+        <item>Canalizare</item>
+
+    </string-array>
+</resources>

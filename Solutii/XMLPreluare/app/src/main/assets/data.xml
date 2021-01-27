@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<players>
+    <player>
+        <name>Lebron James</name>
+        <age>32</age>
+        <position>SF/PF</position>
+    </player>
+    <player>
+        <name>Kevin Durant</name>
+        <age>29</age>
+        <position>SF/PF</position>
+    </player>
+
+    <player>
+        <name>Stepehn Curry</name>
+        <age>27</age>
+        <position>SF/PF</position>
+    </player>
+
+</players>

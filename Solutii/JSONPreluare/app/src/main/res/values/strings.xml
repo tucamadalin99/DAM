@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JSONPreluare</string>
+    <string name="nume_care">Nume care:</string>
+    <string name="val_nume">Val nume</string>
+    <string name="nume_carte">Nume carte</string>
+    <string name="autor">Autor:</string>
+</resources>

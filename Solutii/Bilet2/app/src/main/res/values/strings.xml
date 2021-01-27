@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bilet2</string>
+    <string name="primul_11">Primul 11</string>
+    <string name="adaugare_p11">Adaugare P11</string>
+    <string name="formatie">Formatie</string>
+    <string name="despre">Despre</string>
+    <string name="copyright_fc_barcelona_2016">Copyright FC Barcelona 2016</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nume_jucator">Nume jucator</string>
+    <string name="numar">Numar</string>
+    <string name="portar">portar</string>
+    <string name="atacant">atacant</string>
+    <string name="adauga_jucator">Adauga Jucator</string>
+    <string name="mijlocas">mijlocas</string>
+</resources>

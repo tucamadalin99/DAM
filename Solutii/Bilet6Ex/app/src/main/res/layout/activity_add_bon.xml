@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBonActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_numar"
+        android:layout_width="409dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_numar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numar_bon" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_serviciu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_numar"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <RadioButton
+            android:id="@+id/rb_plata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/plata"/>
+        <RadioButton
+            android:id="@+id/rb_abonament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abonament"/>
+        <RadioButton
+            android:id="@+id/rb_ach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/achizitie"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_data"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_serviciu"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="184dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/data_bon" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_ghiseu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_data"
+        android:layout_marginTop="8dp"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="303dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_ghiseu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numar_ghiseu" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_ghiseu"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga_bon"/>
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_submit"
+        android:text="@string/editeaza_bon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

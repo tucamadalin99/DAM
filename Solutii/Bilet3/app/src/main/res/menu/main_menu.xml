@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/nav_add_veh"
+    android:title="@string/adauga_autovehicul" />
+    <item
+        android:id="@+id/nav_list_veh"
+        android:title="@string/lista_autovehicule" />
+    <item
+        android:id="@+id/nav_preluare"
+        android:title="@string/preluare_json_xml" />
+    <item
+        android:id="@+id/nav_raport"
+        android:title="@string/raport" />
+    <item
+        android:id="@+id/nav_despre"
+        android:title="Despre" />
+</menu>

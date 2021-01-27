@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bilet1</string>
+    <string name="destinatie">Destinatie</string>
+    <string name="data">Data</string>
+    <string name="data2">Data</string>
+    <string name="cost">Cost</string>
+    <string name="normal">Normal</string>
+    <string name="premium">Premium</string>
+    <string name="adauga_taxi">Adauga Taxi</string>
+</resources>

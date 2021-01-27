@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bilet6Ex</string>
+    <string name="emitere_bon">Emitere Bon</string>
+    <string name="lista_bonuri">Lista bonuri</string>
+    <string name="preluare_json_xml">Preluare Json/XML</string>
+    <string name="raport">Raport</string>
+    <string name="despre">Despre</string>
+    <string name="numar_bon">Numar Bon</string>
+    <string name="data_bon">Data Bon</string>
+    <string name="numar_ghiseu">Numar Ghiseu</string>
+    <string name="plata">Plata</string>
+    <string name="abonament">Abonament</string>
+    <string name="achizitie">Achizitie</string>
+    <string name="adauga_bon">Adauga bon</string>
+    <string name="editeaza_bon">Editeaza Bon</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_add_autobuz"
+        android:title="Inregistrare autobuz"></item>
+    <item android:id="@+id/nav_list"
+        android:title="Lista autobuze"></item>
+    <item android:id="@+id/nav_preluare"
+        android:title="Preluare autobuze JSON/XML"></item>
+    <item android:id="@+id/nav_raport"
+        android:title="Raport"></item>
+    <item android:id="@+id/nav_despre"
+        android:title="Despre"></item>
+</menu>

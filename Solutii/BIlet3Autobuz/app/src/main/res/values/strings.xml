@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BIlet3Autobuz</string>
+    <string name="nr_inmatriculare">Nr. inmatriculare</string>
+    <string name="linie">Linie</string>
+    <string name="sofer">Sofer</string>
+    <string name="nr_loc">Nr. loc</string>
+    <string name="adauga_autobuz">Adauga Autobuz</string>
+</resources>

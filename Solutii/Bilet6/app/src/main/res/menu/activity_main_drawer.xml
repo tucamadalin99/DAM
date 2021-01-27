@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- adaugati <item> pentru fiecare optiune pe care o doriti in meniul lateral-->
+        <item
+            android:id="@+id/main_nav_bon"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/emitere_bon" />
+        <item
+            android:id="@+id/main_nav_lv_bonuri"
+            android:icon="@drawable/list_btn_icn"
+            android:title="@string/lista_bonuri" />
+        <item
+            android:id="@+id/main_nav_preluare"
+            android:icon="@drawable/preluare_icn"
+            android:title="@string/preluare_json_xml"/>
+        <item
+            android:id="@+id/main_nav_raport"
+            android:icon="@drawable/bar_chart_icn"
+            android:title="@string/raport"/>
+        <item
+            android:id="@+id/main_nav_despre"
+            android:icon="@drawable/despre_icn"
+            android:title="@string/despre"/>
+    </group>
+</menu>

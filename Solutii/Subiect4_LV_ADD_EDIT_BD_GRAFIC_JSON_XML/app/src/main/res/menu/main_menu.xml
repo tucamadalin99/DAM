@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add"
+        android:title="@string/add_sesizare"/>
+    <item
+        android:id="@+id/nav_lista"
+        android:title="@string/lista_sesizari"/>
+    <item
+        android:id="@+id/nav_preluareJSON"
+        android:title="Preluare JSON"/>
+    <item
+        android:id="@+id/nav_preluareXML"
+        android:title="Preluare XML"/>
+    <item
+        android:id="@+id/nav_raport"
+        android:title="@string/raport"/>
+    <item
+        android:id="@+id/nav_despre"
+        android:title="@string/despre"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bilet3</string>
+    <string name="lista_autovehicule">Lista Autovehicule</string>
+    <string name="adauga_autovehicul">Adauga Autovehicul</string>
+    <string name="preluare_json_xml">Preluare JSON/XML</string>
+    <string name="raport">Raport</string>
+    <string name="nume_autor">Tuca Madalin</string>
+    <string name="numar_auto">Numar Auto</string>
+    <string name="data_inregistrari">Data inregistrari</string>
+    <string name="id_loc">ID Loc</string>
+    <string name="a_platit">A platit</string>
+    <string name="nu_platit">Nu a platit</string>
+    <string name="adauga_autovehicul1">Adauga Autovehicul</string>
+    <string name="editeaza">Editeaza</string>
+    <string name="title_activity_lista_autovehicule">ListaAutovehicule</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
